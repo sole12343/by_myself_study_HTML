@@ -1,0 +1,26 @@
+<html>
+
+<body>
+    <form action="https://www.baidu.com" method="get">
+        <!-- 文本框标签 -->
+        用户姓名：<input type="text" name="userName" /><br/>
+        <!-- 密码框  -->
+        用户密码：<input type="password" name="password" /><br/>
+        <!-- 单选框 -->
+        用户性别：<input type="radio" name="sex" value="man" />男<input type="radio" name="sex" value="woman" />女<br/>
+        <!-- 多选框 -->
+        擅长技术：<input type="checkbox" name="tech" value="java" />java<input type="checkbox" name="tech" value="C++" />C++
+        <input type="checkbox" name="tech" value="python" />python
+        <!-- 文件选择框  将选中文件作为请求参数内容-->
+        用户头像：<input type="file" name="myfile" /><br/>
+
+
+        <textarea name="tt" rows="10" cols="30"></textarea><br/>
+        <!-- 提交按钮 属于表单域标签。但是用于触发form命令。不作为请求参数使用 -->
+        <input type="submit" value="百度" />
+        <!-- 重置按钮 属于表单域标签。但是用于将表单域标签value设为初始值，不作为请求参数使用 -->
+        <input type="reset" />
+    </form>
+</body>
+
+</html>
